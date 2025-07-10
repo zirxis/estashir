@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الاستشارات الطبية - دليلك الصحي الشامل</title>
+    <meta name="description" content="موقع استشارات طبية شامل يقدم معلومات موثوقة حول الأعراض والأسباب والعلاجات المحتملة. دليلك الصحي المتكامل.">
+    <meta name="keywords" content="صحة, طب, أعراض, علاج, استشارة طبية, أمراض, وقاية, طبيب, مستشفى">
+    <meta name="author" content="فريق الاستشارات الطبية">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://medical-consultation.com/">
+    <meta property="og:title" content="موقع الاستشارات الطبية - دليلك الصحي الشامل">
+    <meta property="og:description" content="موقع استشارات طبية شامل يقدم معلومات موثوقة حول الأعراض والأسباب والعلاجات المحتملة.">
+    <meta property="og:image" content="https://medical-consultation.com/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://medical-consultation.com/">
+    <meta property="twitter:title" content="موقع الاستشارات الطبية">
+    <meta property="twitter:description" content="دليلك الصحي الشامل للأعراض والأسباب والعلاجات المحتملة">
+    <meta property="twitter:image" content="https://medical-consultation.com/images/twitter-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "موقع الاستشارات الطبية",
+      "url": "https://medical-consultation.com/",
+      "description": "دليلك الصحي الشامل للأعراض والأسباب والعلاجات المحتملة",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://medical-consultation.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- Header Section -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero" aria-label="العودة للصفحة الرئيسية">
+                    <i class="fas fa-heartbeat" aria-hidden="true"></i>
+                    <h1>استشر</h1>
+                </a>
+            </div>
+            <nav class="nav" role="navigation" aria-label="القائمة الرئيسية">
+                <button class="mobile-menu-toggle" aria-controls="main-navigation" aria-expanded="false" aria-label="فتح القائمة">
+                    <span class="hamburger-icon"></span>
+                </button>
+                <ul class="nav-list" id="main-navigation">
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#search-section">البحث عن الأعراض</a></li>
+                    <li><a href="#features">الخدمات</a></li>
+                    <li><a href="#about">عن الموقع</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" role="main">
+        <div class="hero-background">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="animate-fade-in">دليلك الصحي الشامل والموثوق</h2>
+                <p class="animate-slide-up">احصل على معلومات طبية دقيقة وموثوقة حول الأعراض والأسباب والعلاجات المحتملة من مصادر طبية معتمدة.</p>
+                <div class="hero-buttons">
+                    <a href="#search-section" class="btn btn-primary animate-zoom-in">
+                        <i class="fas fa-search"></i>
+                        ابدأ البحث الآن
+                    </a>
+                    <a href="#emergency" class="btn btn-emergency animate-zoom-in">
+                        <i class="fas fa-phone-alt"></i>
+                        الطوارئ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main id="main-content" class="main-content">
+        <!-- Search Section -->
+        <section id="search-section" class="search-section">
+            <div class="container">
+                <h2 class="section-title">ابحث عن الأعراض</h2>
+                <p class="section-description">اختر العرض الذي تعاني منه للحصول على معلومات مفصلة حول الأسباب والعلاجات المحتملة من مصادر طبية موثوقة.</p>
+                
+                <form class="input-group" role="search">
+                    <label for="symptomSelect" class="sr-only">اختر العرض</label>
+                    <select id="symptomSelect" aria-label="اختر العرض الذي تعاني منه">
+                        <option value="">اختر العرض</option>
+                        <option value="headache">صداع في الرأس</option>
+                        <option value="fever">حمى وارتفاع حرارة</option>
+                        <option value="cough">سعال مستمر</option>
+                        <option value="stomach_pain">ألم في المعدة</option>
+                        <option value="chest_pain">ألم في الصدر</option>
+                        <option value="fatigue">إرهاق وتعب عام</option>
+                        <option value="nausea">غثيان وقيء</option>
+                        <option value="dizziness">دوخة ودوار</option>
+                        <option value="sore_throat">ألم في الحلق</option>
+                        <option value="shortness_of_breath">ضيق في التنفس</option>
+                        <option value="joint_pain">ألم في المفاصل</option>
+                        <option value="skin_rash">طفح جلدي</option>
+                        <option value="back_pain">ألم في الظهر</option>
+                        <option value="muscle_pain">ألم في العضلات</option>
+                        <option value="anxiety">قلق وتوتر</option>
+                        <option value="depression">اكتئاب</option>
+                        <option value="insomnia">أرق وصعوبة نوم</option>
+                        <option value="eye_pain">ألم في العين</option>
+                        <option value="ear_pain">ألم في الأذن</option>
+                        <option value="tooth_pain">ألم في الأسنان</option>
+                    </select>
+                    <button id="searchBtn" class="btn btn-secondary" type="submit" aria-label="ابحث عن الأسباب">
+                        <i class="fas fa-search" aria-hidden="true"></i> ابحث عن الأسباب
+                    </button>
+                </form>
+
+                <!-- Loading State -->
+                <div id="loadingState" class="loading-state" role="status" aria-live="polite" aria-hidden="true">
+                    <div class="spinner"></div>
+                    <p>جاري تحميل المعلومات الطبية...</p>
+                </div>
+
+                <!-- Results Section -->
+                <div id="results" class="results-section">
+                    <!-- Emergency Notice -->
+                    <div id="emergencyNotice" class="emergency-notice" role="alert" aria-hidden="true">
+                        <i class="fas fa-exclamation-triangle" aria-hidden="true"></i>
+                        <h3>تحذير طبي هام!</h3>
+                        <p>بعض الأعراض التي اخترتها قد تشير إلى حالات طبية خطيرة تتطلب عناية طبية فورية. يرجى عدم تجاهل هذه الأعراض والتوجه لأقرب مستشفى أو الاتصال بالطوارئ فوراً إذا كانت حالتك تستدعي ذلك.</p>
+                        <p><strong>هذا الموقع يقدم معلومات إرشادية فقط ولا يغني أبداً عن استشارة الطبيب المختص.</strong></p>
+                        <div class="emergency-actions">
+                            <a href="tel:3033" class="btn btn-emergency-small">
+                                <i class="fas fa-phone"></i> الطوارئ 3033
+                            </a>
+                            <a href="tel:14" class="btn btn-emergency-small">
+                                <i class="fas fa-ambulance"></i> الإسعاف 14
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Causes Section -->
+                    <section id="causesSection" class="causes-section" style="display: none;" role="region" aria-labelledby="causes-title">
+                        <h3 id="causes-title" class="section-subtitle">الأسباب المحتملة</h3>
+                        <div id="causesGrid" class="causes-grid" role="list"></div>
+                        <div class="medical-disclaimer">
+                            <i class="fas fa-info-circle"></i>
+                            <p><strong>تنبيه طبي:</strong> هذه المعلومات لأغراض التثقيف الصحي فقط ولا تغني عن استشارة الطبيب المختص.</p>
+                        </div>
+                    </section>
+
+                    <!-- Cause Details Section -->
+                    <section id="causeDetails" class="cause-details" style="display: none;" role="region" aria-labelledby="causeTitle">
+                        <button id="backBtn" class="btn btn-outline" aria-label="العودة إلى قائمة الأسباب">
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i> العودة
+                        </button>
+                        <h3 id="causeTitle" class="section-subtitle"></h3>
+                        <div class="details-header">
+                            <span id="severityBadge" class="severity-badge" role="status"></span>
+                        </div>
+                        <p id="causeDescription" class="description"></p>
+                        
+                        <div class="severity-info">
+                            <h4><i class="fas fa-info-circle" aria-hidden="true"></i> تقييم مستوى الخطورة</h4>
+                            <div id="severityDetails" class="severity-content"></div>
+                        </div>
+
+                        <div class="treatments-info">
+                            <h4><i class="fas fa-first-aid" aria-hidden="true"></i> العلاجات والإرشادات المقترحة</h4>
+                            <div id="treatmentsList" class="treatments-list" role="list"></div>
+                        </div>
+
+                        <div class="medical-advice">
+                            <h4><i class="fas fa-user-md"></i> نصائح طبية إضافية</h4>
+                            <div class="advice-content">
+                                <p>• استشر طبيبك دائماً قبل بدء أي علاج</p>
+                                <p>• تابع الأعراض وسجل تطورها</p>
+                                <p>• لا تتجاهل الأعراض المستمرة أو المتفاقمة</p>
+                                <p>• احرص على اتباع تعليمات الطبيب بدقة</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">خدماتنا الطبية</h2>
+                <p class="section-description">نقدم مجموعة شاملة من الخدمات الطبية الإرشادية لمساعدتك في فهم حالتك الصحية</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <h3>تشخيص الأعراض</h3>
+                        <p>قاعدة بيانات شاملة تضم مئات الأعراض والحالات الطبية مع معلومات دقيقة حول كل حالة</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <h3>إرشادات العلاج</h3>
+                        <p>معلومات مفصلة حول خيارات العلاج المختلفة والأدوية المناسبة لكل حالة</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>نصائح الوقاية</h3>
+                        <p>إرشادات طبية للوقاية من الأمراض والحفاظ على صحة جيدة</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-phone-medical"></i>
+                        </div>
+                        <h3>أرقام الطوارئ</h3>
+                        <p>دليل شامل لأرقام الطوارئ والمستشفيات والعيادات في جميع أنحاء المملكة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">عن موقع الاستشارات الطبية</h2>
+                        <p class="large-text">
+                            موقع الاستشارات الطبية هو منصة طبية شاملة تهدف إلى توفير معلومات صحية موثوقة ودقيقة 
+                            للمرضى وأفراد المجتمع. نحن نسعى لتمكين الأفراد بالمعرفة الطبية اللازمة لفهم حالتهم 
+                            الصحية بشكل أفضل واتخاذ قرارات مستنيرة بشأن صحتهم.
+                        </p>
+                        
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>معلومات طبية موثوقة ومحدثة باستمرار</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>قاعدة بيانات شاملة للأعراض والأمراض</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>إرشادات علاجية مبنية على أدلة علمية</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>واجهة سهلة الاستخدام ومتاحة للجميع</span>
+                            </div>
+                        </div>
+                        
+                        <p class="disclaimer-text">
+                            <strong>تنبيه هام:</strong> المعلومات المقدمة في هذا الموقع هي لأغراض التثقيف الصحي فقط 
+                            ولا تغني أبداً عن استشارة الطبيب المختص. نحن نشجع جميع المرضى على مراجعة أطبائهم 
+                            للحصول على التشخيص والعلاج المناسب.
+                        </p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">عرض طبي</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">حالة مرضية</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2000+</div>
+                            <div class="stat-label">علاج مقترح</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">متاح دائماً</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="social-section">
+            <div class="container">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-description">نحن هنا لمساعدتك. تواصل معنا عبر وسائل التواصل التالية للحصول على الدعم والمساعدة</p>
+                
+                <div class="social-links">
+                    <a href="https://wa.me/213667432458" class="social-card whatsapp" target="_blank" rel="noopener" aria-label="تواصل عبر واتس اب">
+                        <div class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>واتس اب</h3>
+                        <p>للاستفسارات العاجلة والدعم الفوري</p>
+                        <span class="social-link-text">ابدأ المحادثة</span>
+                    </a>
+                    
+                    <a href="https://t.me/zirxiss" class="social-card telegram" target="_blank" rel="noopener" aria-label="انضم إلى قناة تيليجرام">
+                        <div class="social-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <h3>تيليجرام</h3>
+                        <p>انضم إلى قناتنا للحصول على آخر التحديثات الطبية</p>
+                        <span class="social-link-text">انضم الآن</span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/zirxiz.o/" class="social-card instagram" target="_blank" rel="noopener" aria-label="تابعنا على انستغرام">
+                        <div class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>انستغرام</h3>
+                        <p>تابع منشوراتنا اليومية للنصائح الصحية</p>
+                        <span class="social-link-text">تابعنا</span>
+                    </a>
+                </div>
+                
+                <div class="emergency-section">
+                    <h3><i class="fas fa-exclamation-triangle"></i> أرقام الطوارئ</h3>
+                    <div class="emergency-numbers">
+                        <div class="emergency-number">
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="number">3033</span>
+                            <span class="label">الطوارئ العامة</span>
+                        </div>
+                        <div class="emergency-number">
+                            <i class="fas fa-ambulance"></i>
+                            <span class="number">14</span>
+                            <span class="label">الإسعاف والطوارئ الطبية</span>
+                        </div>
+                        <div class="emergency-number">
+                            <i class="fas fa-fire"></i>
+                            <span class="number">14</span>
+                            <span class="label">الدفاع المدني</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>الاستشارات الطبية</span>
+                    </div>
+                    <p>دليلك الصحي الموثوق للحصول على معلومات طبية دقيقة ومفيدة</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط مفيدة</h4>
+                    <ul>
+                        <li><a href="#search-section">البحث عن الأعراض</a></li>
+                        <li><a href="#features">خدماتنا</a></li>
+                        <li><a href="#about">عن الموقع</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>إخلاء المسؤولية</h4>
+                    <p>المعلومات المقدمة لأغراض التثقيف الصحي فقط ولا تغني عن استشارة الطبيب المختص</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 من طرف موقع الاستشارات الطبية. جميع الحقوق محفوظة zirxis  (أسامة) .</p>
+                <div class="footer-links">
+                    <a href="#privacy">سياسة الخصوصية</a>
+                    <a href="#terms">شروط الاستخدام</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="العودة إلى الأعلى">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Screen Reader Announcements -->
+    <div id="ariaLiveRegion" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
